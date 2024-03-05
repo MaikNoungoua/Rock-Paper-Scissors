@@ -1,0 +1,79 @@
+body
+{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(beige, pink);
+}
+
+
+#main-container{
+    margin: auto;
+    height: 1240px;
+}
+.sisters{
+    margin: auto;
+    height: 10%;
+    /*background-color: rgb(241, 212, 175);*/
+    align-items: center;
+}
+
+.title{
+    font-size: xx-large;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.game-area{
+    display: flex;
+    margin: auto;
+    height: 60%;
+    /*background-color: rgb(165, 134, 194);*/
+}
+
+.player-stats{
+    height: auto;
+    width : 25%;
+   /* background-color: rgb(218, 96, 176);*/
+}
+
+.challenge{
+    height:auto;
+    width: 50%;
+    /*background-color: rgb(87, 126, 219);*/
+}
+
+.game{
+    display: flex;
+    margin: auto;
+    height: 55%;
+    border: solid black 1px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.play-button{
+    font-size: 80px;
+    border-radius: 5px;
+    
+}
+.selection{
+    display: flex;
+    margin: auto;
+    height: 35%;
+   /* border: solid orange 1px;*/
+
+}
+
+.rps{
+    margin: auto;
+    padding: 30px;
+    justify-content: space-around;
+    
+}
+
+.img{
+    height: 120px;
+    width: 120px;
+}

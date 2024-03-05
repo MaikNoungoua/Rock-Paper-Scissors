@@ -1,5 +1,9 @@
 
 
+
+rock.addEventListener('click', () => {rpsRound("rock", a);} );
+
+
 const max = 3;
 
 a = function getComputerChoice () {
@@ -58,4 +62,6 @@ function rpsRound (playerChoice, computerChoice){
     }
 }
 
-console.log(rpsRound());
+//console.log(rpsRound());
+
+
