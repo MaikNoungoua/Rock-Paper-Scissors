@@ -38,6 +38,7 @@ body
 }
 
 .challenge{
+    
     height:auto;
     width: 50%;
     /*background-color: rgb(87, 126, 219);*/
@@ -56,8 +57,35 @@ body
 .play-button{
     font-size: 80px;
     border-radius: 5px;
-    
 }
+
+
+#test-id{
+    display: flex;
+}
+
+
+/*
+THE COMMENTED SECTION BELOW IS JUST FOR REFERENCE 
+WHEN I AM GOING TO USE DOM. 
+
+#round{
+    margin: auto;
+    height: 30%;
+}
+
+#choices{    
+    margin: auto;
+    height: 60%;
+}
+
+#winner{
+    margin: auto;
+    height:20%;
+}
+*/
+
+
 .selection{
     display: flex;
     margin: auto;

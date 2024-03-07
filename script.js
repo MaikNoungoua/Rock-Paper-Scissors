@@ -2,8 +2,10 @@
 
 
 
-
+const cpuRecord = []; //this array append 1 for every round won by CPU 
+const playerRecord = []; //this array append 1 for every round won by player  
 const max = 3;
+
 
 a = function getComputerChoice () {
 
@@ -61,28 +63,70 @@ function rpsRound (playerChoice, compChoice){
     }
 }
 
-//console.log(rpsRound());
-
-
-
-let compChoice = a();
-start.addEventListener('click', () => {
-    compChoice;
-    
-});
-
-
-rock.addEventListener('click', () => {
+function uiLogic (){
+    rock.addEventListener('click', () => {
     playerChoice = "Rock";
     rpsRound( playerChoice, compChoice);
-});
+    });
 
-paper.addEventListener('click', () => {
+    paper.addEventListener('click', () => {
     playerChoice = "Paper";
     rpsRound(playerChoice, compChoice);
-});
+    });
 
-scissors.addEventListener('click', () => {
+    scissors.addEventListener('click', () => {
     playerChoice = "Scissors";
     rpsRound(playerChoice, compChoice);
+    });
+}
+
+
+
+let compChoice = a(); //let's not forget to 
+start.addEventListener('click', () => {
+    const container = document.getElementById("appender");
+    
+
+    const playButton = document.getElementById("start");
+    playButton.style.display = "none";
+
+    
+   /* const hiddenElements = document.querySelectorAll("hidden"); 
+    hiddenElements.style.display = "block"; 
+    /*const hiddenElements = document.getElementsByClassName("hidden"); 
+    hiddenElements.style.display = "block"; */
+
+    const roundDiv = document.createElement('div');
+    const roundIndicator = document.createElement('p');
+     
+    const choicesDiv = document.createElement('div');
+    choicesDiv.setAttribute("id","test-id");
+    const playerChoicesIndicator = document.createElement('p');
+    const cpuChoicesIndicator = document.createElement('p');
+
+    roundIndicator.textContent = `Round : ${"round"}` //The variable round needs 
+    
+    playerChoicesIndicator.textContent = `Player 1 choses ${"playerChoice"}`;
+    cpuChoicesIndicator.textContent = `CPU choses ${"compChoice"}`;
+
+    container.appendChild(roundDiv);
+    roundDiv.appendChild(roundIndicator);
+    roundDiv.appendChild(choicesDiv);
+    choicesDiv.appendChild(playerChoicesIndicator);
+    choicesDiv.appendChild(cpuChoicesIndicator);
+
+
+
+
+     
+
+
+
+
+
+
+//compChoice;
+
 });
+
+
