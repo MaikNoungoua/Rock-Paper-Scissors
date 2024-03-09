@@ -28,27 +28,28 @@ body
     display: flex;
     margin: auto;
     height: 60%;
-    /*background-color: rgb(165, 134, 194);*/
 }
 
 .player-stats{
     height: auto;
     width : 25%;
-   /* background-color: rgb(218, 96, 176);*/
+   
 }
 
 .challenge{
     
     height:auto;
     width: 50%;
-    /*background-color: rgb(87, 126, 219);*/
+    
 }
 
 .game{
     display: flex;
     margin: auto;
     height: 55%;
-    border: solid black 1px;
+    width: 100%;
+    border: solid #7D5A50 3px;
+    background-color: #F5E8C7;
     align-items: center;
     justify-content: center;
     border-radius: 50px;
@@ -57,11 +58,13 @@ body
 .play-button{
     font-size: 80px;
     border-radius: 5px;
+    background-color: rgb(250, 234, 237);
 }
 
 
 #test-id{
     display: flex;
+    justify-content: space-between;
 }
 
 
@@ -84,4 +87,39 @@ body
 .img{
     height: 120px;
     width: 120px;
+    background-color: rgb(250, 234, 237);
+}
+
+#round-number {
+    text-align: center;
+    font-size: x-large;
+    font-family: Tahoma;
+    font-style: bold;
+    color: brown;
+
+}
+
+#theone{
+    margin: auto;
+    width: 80%;
+}
+p.ChoiceIndicator{
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: large;
+    font-family: Tahoma;
+    font-style: bold;
+    color: brown;
+
+
+}
+
+#thewinner {
+
+    text-align: center;
+    font-size: x-large;
+    font-family: Tahoma;
+    font-style: bold;
+    color: rgb(166, 103, 103);
+
 }
