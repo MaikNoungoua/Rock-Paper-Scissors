@@ -65,26 +65,6 @@ body
 }
 
 
-/*
-THE COMMENTED SECTION BELOW IS JUST FOR REFERENCE 
-WHEN I AM GOING TO USE DOM. 
-
-#round{
-    margin: auto;
-    height: 30%;
-}
-
-#choices{    
-    margin: auto;
-    height: 60%;
-}
-
-#winner{
-    margin: auto;
-    height:20%;
-}
-*/
-
 
 .selection{
     display: flex;
