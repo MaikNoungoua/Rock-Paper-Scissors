@@ -123,3 +123,20 @@ p.ChoiceIndicator{
     color: rgb(166, 103, 103);
 
 }
+
+#playerSection{
+    text-align: center;
+    font-size: x-large;
+    font-family: Tahoma;
+    font-style: bold;
+    color: rgb(166, 103, 103);
+}
+
+
+#cpuSection{
+    text-align: center;
+    font-size: x-large;
+    font-family: Tahoma;
+    font-style: bold;
+    color: rgb(166, 103, 103);
+}
